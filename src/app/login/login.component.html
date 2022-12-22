@@ -1,0 +1,14 @@
+<section class="login-button">
+  <div class="button">
+    <p class="login-message">Please enter the TOP SECRET password to view this site:</p>
+    <p>PASSWORD:<input id="passwordBox" type="password" [(ngModel)]="passwordText"/></p>
+    <button 
+      mat-raised-button color="primary" 
+      class="button-link" 
+      (click)="checkPassword()">
+      LOG IN
+    </button>
+  </div>
+</section>
+
+

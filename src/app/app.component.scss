@@ -5,6 +5,7 @@
     background-color: rgb(4, 180, 4);
     padding-top: .25em;
     margin-bottom: 0em;
+    box-shadow: .25em .25em .25em gray;
 }
 
 h1 {
@@ -16,79 +17,3 @@ h1 {
     font-size: 3em;
     margin: .5em;
 }
-
-.subheader {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(56, 55, 55);
-    color: whitesmoke;
-    font-family:Arial, Helvetica, sans-serif;
-    box-shadow: .25em .25em .25em gray;
-}
-
-h3 {
-    margin: 0px;
-    padding: 0px;
-}
-
-.page-contents {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 20px;
-}
-
-.main-info {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin-top: 3em;
-    margin-left: 3em;
-}
-
-.team-image {
-    width: 50%;
-}
-
-.diamond-facts {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 1em;
-    margin-top: 3em;
-}
-
-.diamond-image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid 2px lightskyblue;
-    padding: 10px;
-    width: 35%;
-    background-color: rgb(243, 242, 239);
-
-}
-
-.fact-file-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1em;
-    border: solid 2px lightskyblue;
-    padding: 10px;
-    width: 35%;
-    background-color: rgb(243, 242, 239);
-    p {
-        line-height: 1px;
-    }
-}
-
-.diamond-image {
-    width: 70%;
-}
-
