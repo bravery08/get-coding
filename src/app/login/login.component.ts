@@ -15,7 +15,7 @@ export class LoginComponent implements OnInit {
   }
 
   checkPassword(): boolean {
-    if(this.passwordText === "StarWars1977"){
+    if(this.passwordText === "TOPSECRET"){
       this._router.navigate(['/diamond']);
       return true;
     }
